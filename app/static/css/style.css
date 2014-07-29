@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Trochut:700|Raleway:400,300,700);
 body {
-  background-color: rgba(14, 10, 2, 0.78);
+  background-color: rgba(14, 10, 2, 0.87);
   font-family: 'Raleway', sans-serif;
   color: whitesmoke;
 }
@@ -13,11 +13,13 @@ h1 {
 }
 h2 {
   text-align: center;
+  letter-spacing: 2px;
   font-weight: 400;
 }
 nav ul {
   text-align: center;
   background-color: rgba(211, 224, 235, 0.43);
+  margin-bottom: 0;
 }
 nav ul li {
   margin: 20px;
@@ -42,10 +44,19 @@ video {
   z-index: -100;
   background-color: cover;
 }
-.center {
+#about {
   width: 50%;
   margin: 0 auto;
-  font-size: 1.5em;
+  padding: 40px;
+  font-size: 1.25em;
+  color: #fff;
+  background-color: rgba(19, 14, 8, 0.52);
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+#about h2 {
+  text-align: center;
+  letter-spacing: 2px;
 }
 .bkgd {
   background: url('../images/thegrowlers.jpg') no-repeat;
@@ -56,16 +67,20 @@ video {
 }
 #disco .album h3 {
   font-size: 2em;
-  margin: 30px 0 10px 450px;
+  text-align: center;
+  background-color: rgba(211, 224, 235, 0.43);
+  padding: 10px;
+  letter-spacing: 2px;
 }
 #disco .album img {
   display: block;
   float: left;
+  margin-left: 300px;
 }
 #disco .album ul {
   list-style: none;
-  font-size: 1.25em;
   margin-left: 450px;
+  padding-left: 300px;
 }
 #disco .album ul li {
   margin: 5px;
@@ -73,4 +88,25 @@ video {
 #disco .album ul li a {
   text-decoration: none;
   text-align: center;
+}
+#tours {
+  background: url('../images/thegrowlers2.jpg') no-repeat;
+  background-size: cover;
+}
+#tours h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+#tours p {
+  letter-spacing: 2px;
+  background-color: rgba(9, 17, 24, 0.55);
+  text-align: center;
+  padding: 30px;
+}
+#tours p .strong {
+  font-size: 1.5em;
+}
+.videos {
+  display: block;
+  margin-left: 330px;
 }
